@@ -1,0 +1,14 @@
+body{
+    background-color: #191919;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

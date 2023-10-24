@@ -1,0 +1,96 @@
+
+
+.container header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #dddddd;
+    width: 20vw;
+}
+
+.container header .image-container{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container header .image-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container header .user-name{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.container header .user-name span{
+    opacity: 0.5;
+}
+
+.container aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+}
+.container aside button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+    background-color: #dddddd;
+    color: #232323;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border 0.2s ease-in-out;
+}
+
+.container aside button:hover{
+    background-color: #2c5ccd;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+.container aside button.following:hover{
+    background-color: rgba(136, 48, 48, 0.5);
+    border: #682727 1px solid;
+    color: #ab3838;
+    cursor: pointer;
+}
+
+.container aside button.following{
+    background-color: #202020;
+    border: #dddddd 1px solid;
+    cursor: pointer;
+    color: #dddddd;
+}
+
+.container aside button.following:hover .text-follow{
+    display: none;
+}
+
+.container aside button.following:hover .text-unfollow{
+    display: block;
+}
+
+.container aside button.following .text-follow{
+    display: block;
+}
+
+.container aside button .text-unfollow{
+    display: none;
+}
