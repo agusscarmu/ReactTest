@@ -1,42 +1,91 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.game{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.cell{
+    border: white 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.cell.player1{
+    color: rgb(198, 217, 255);
+    box-shadow: rgb(63, 63, 255) 0px 0px 10px;
+    text-shadow: 0px 0px 5px rgb(60, 83, 255);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cell.player2{
+    color: rgb(255, 209, 209);
+    box-shadow: rgb(255, 44, 44) 0px 0px 10px;
+    text-shadow: 0px 0px 5px rgb(255, 53, 53);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cell.player1.ganador,.cell.player2.ganador{
+    color: rgb(198, 217, 255);
+    box-shadow: rgb(0, 255, 76) 0px 0px 10px;
+    animation: ganador 1s infinite;
 }
 
-.card {
-  padding: 2em;
+@keyframes ganador{
+    0%{
+        text-shadow: 0px 0px 5px rgb(0, 255, 34);
+    }
+    50%{
+        text-shadow: 0px 0px 15px rgb(0, 255, 34);
+    }
+    100%{
+        text-shadow: 0px 0px 5px rgb(0, 255, 34);
+    }
 }
 
-.read-the-docs {
-  color: #888;
+.board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.score .player1{
+    color: rgb(198, 217, 255);
+    text-shadow: 0px 0px 5px rgb(60, 83, 255);
+}
+.score .player2{
+    color: rgb(255, 209, 209);
+    text-shadow: 0px 0px 5px rgb(255, 53, 53);
+}
+
+.play-again{
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.play-again:hover{
+    background-color: white;
+    color: black;
+}
+
+.play-again.hidden{
+    display: none;
 }
