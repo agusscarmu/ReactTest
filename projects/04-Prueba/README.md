@@ -1,7 +1,15 @@
 # Ejercicios Pruebas Tecnicas
 
+## 1. Prueba tecnica para Juniors y Trainee
 
-## 1. Crear punto de entrada a React
+- Facts Random: https://catfact.ninia/fact
+- Imagen random: https://cataas.com/cat/says/hello
+
+- Recupera un hecho aleatorio de gatos de la primera API
+- Recuperar la primera palabra del hecho
+- Muestra una imagen de un gato con la primera palabra.
+
+## 2. Crear punto de entrada a React
 
 1. Es necesaria la instalacion de vite con (npm install vite@latest) y posteriormente instalar el plugin de __React__ como se ve en la imagen a continuacion (primer comando). Luego de esto instalamos React (bibliotecas) y React dom (relacion con navegador). 
 
