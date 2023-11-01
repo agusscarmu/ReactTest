@@ -10,49 +10,71 @@
 - Recuperar la primera palabra del hecho
 - Muestra una imagen de un gato con la primera palabra.
 
-## 2. Crear punto de entrada a React
+Para mejorar la presentación de las instrucciones para configurar un punto de entrada a React en tu README, podrías organizarlas de la siguiente manera:
 
-1. Es necesaria la instalacion de vite con (npm install vite@latest) y posteriormente instalar el plugin de __React__ como se ve en la imagen a continuacion (primer comando). Luego de esto instalamos React (bibliotecas) y React dom (relacion con navegador). 
+## 2. Configuración del Punto de Entrada a React
 
-    1. Instalamos el plugin
+### 1. Instalación de Vite y Plugins
+
+Primero, es necesario instalar Vite y el plugin de React. Ejecuta los siguientes comandos:
+
+1. Instalar el plugin de React:
+
     ![Instalar plugin](./image/img0.png)
 
-    2. Instalamos React y React dom
-    ![Instalar React](./image/img1.png)
-2. Se nos crearan las siguientes dependencias.
+2. Instalar React y React DOM:
 
-![Dependencias](./image/img2.png)
+    ![Instalar React y React DOM](./image/img1.png)
 
-3. Crear configuracion de Vite.
+### 2. Dependencias Creadas
 
-![Vite](./image/img3.png)
+Después de ejecutar los comandos anteriores, se crearán las siguientes dependencias:
 
-4. Instalar Linter para identificar errores y ayudarnos en el desarrollo.
+![Dependencias Creadas](./image/img2.png)
 
-    1. Instalamos por consola
-    ![Instalacion linter](./image/img4.png)
+### 3. Configuración de Vite
 
-    2. Creamos la dependencia
-    ![Dependencia](./image/img5.png)
+Procede a configurar Vite para tu proyecto:
+
+![Configuración de Vite](./image/img3.png)
+
+### 4. Instalación del Linter
+
+Para mejorar la calidad del código, instala un Linter para identificar errores y ayudarte en el desarrollo:
+
+1. Instalación del Linter a través de la consola:
+
+    ![Instalación del Linter](./image/img4.png)
+
+2. Crear la dependencia del Linter:
+
+    ![Dependencia del Linter](./image/img5.png)
+
     
-## 3. Tests
+## 3. Pruebas
 
-1. Inicia el testing
+A continuación se presentan los resultados de las pruebas realizadas en el proyecto.
+
+### 1. Inicio de las Pruebas
+
 ![Inicia Test](./image/tests.png)
 
-2. Preparacion del Test
-![Preparacion](./image/tests3.png)
+### 2. Preparación del Test
 
-3. Resultado del Test (exitoso)
-![Success](./image/tests2.png)
+![Preparación](./image/tests3.png)
 
-4. Preparacion de Test forzando fallo
-![Preparacion forzada](./image/tests4.png)
+### 3. Resultado Exitoso del Test
 
-5. Resultado del Test (fallo)
+![Éxito](./image/tests2.png)
+
+### 4. Preparación del Test con Fallo Forzado
+
+![Preparación con Fallo](./image/tests4.png)
+
+### 5. Resultado Fallido del Test
+
 ![Error](./image/tests6.png)
 
-6. Resultados fallidos en navegador
-![Instalar plugin](./image/tests5.png)
+### 6. Mensajes de Error en el Navegador
 
-
+![Instalar Plugin](./image/tests5.png)
