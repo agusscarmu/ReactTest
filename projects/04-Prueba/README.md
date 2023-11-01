@@ -4,6 +4,7 @@
 
 - Facts Random: https://catfact.ninia/fact
 - Imagen random: https://cataas.com/cat/says/hello
+    - `https://cataas.com/cat/says/${gato}?fontSize=50&fontColor=red&json=true`
 
 - Recupera un hecho aleatorio de gatos de la primera API
 - Recuperar la primera palabra del hecho

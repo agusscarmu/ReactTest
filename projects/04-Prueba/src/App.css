@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10;
+}
+
+main section img{
+    max-width: 300px;
+    max-height: auto;
+}
