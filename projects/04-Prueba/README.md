@@ -35,5 +35,24 @@
     2. Creamos la dependencia
     ![Dependencia](./image/img5.png)
     
+## 3. Tests
+
+1. Inicia el testing
+![Inicia Test](./image/tests.png)
+
+2. Preparacion del Test
+![Preparacion](./image/tests3.png)
+
+3. Resultado del Test (exitoso)
+![Success](./image/tests1.png)
+
+4. Preparacion de Test forzando fallo
+![Preparacion forzada](./image/tests4.png)
+
+5. Resultado del Test (fallo)
+![Error](./image/tests6.png)
+
+6. Resultados fallidos en navegador
+![Instalar plugin](./image/tests5.png)
 
 
