@@ -44,7 +44,7 @@
 ![Preparacion](./image/tests3.png)
 
 3. Resultado del Test (exitoso)
-![Success](./image/tests1.png)
+![Success](./image/tests2.png)
 
 4. Preparacion de Test forzando fallo
 ![Preparacion forzada](./image/tests4.png)
