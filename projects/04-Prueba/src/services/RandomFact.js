@@ -7,7 +7,10 @@ const URL_API = 'https://catfact.ninja/fact' //URL Que trae un JSON random con u
  * operaciones asincrónicas, como peticiones de red, acceso a bases de datos, o cualquier 
  * operación que pueda tardar un tiempo en completarse.
  */
-export const getFact = async () => {
+export const getFact = async (input) => {
+    if(input){
+        return input
+    }
     const res = await fetch(URL_API) //Son promesas (puede hacerse con await o puede hacerse con .then)
     const data = await res.json()
     const {fact} = data

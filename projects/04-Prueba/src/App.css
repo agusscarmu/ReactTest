@@ -16,3 +16,46 @@ main section img{
     max-width: 300px;
     max-height: auto;
 }
+
+main section.input-section{
+    height: 10vh;
+    width: 30vw;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    box-shadow: 20px 20px 60px #484848, -20px -20px 60px #ffffff;
+}
+
+main div.control-panel{
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background-color: rgb(207, 207, 207);
+    margin: 10px;
+    box-shadow: 5px 5px 10px #484848;
+}
+
+main div.control-panel button.change-random{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: rgb(120, 163, 255);
+}
+
+main div.control-panel button.submit{
+    background-color: rgb(77, 178, 255);
+    border-radius: 5px;
+}
+
+main div.control-panel button.submit:hover{
+    background-color: rgba(81, 255, 0, 0.8);
+}

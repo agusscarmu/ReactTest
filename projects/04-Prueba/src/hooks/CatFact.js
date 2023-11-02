@@ -14,10 +14,15 @@ export function catFact(){
     * se pasa el resultado (llamado newFact en este caso) 
     * a la función dentro de then. Esta función toma newFact y actualiza el estado con setFact(newFact).
     */
-    const refreshFact = ()=>{
-        getFact().then((newFact)=> setFact(newFact))
-    }
 
+
+    function refreshFact(input){
+        if(input === undefined){
+            getFact().then((newFact)=> setFact(newFact))
+        }else{
+            getFact(input).then(input => setFact(input))
+        }
+    }
 
     
     useEffect( refreshFact , [])
