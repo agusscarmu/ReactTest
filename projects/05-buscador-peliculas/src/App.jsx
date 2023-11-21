@@ -29,7 +29,7 @@ function App() {
 
     <main>
       {error && <p>{error}</p>}
-      {loading? <p>Loading...</p> :<Movies movies={movies} />}
+      {loading ? <p>Loading...</p> :<Movies movies={movies} />}
     </main>
     </>
   )
